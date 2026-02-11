@@ -1,10 +1,15 @@
 {
   "version": "2.0",
-  "effective_date": "2027-01-01",
+  "effective_date": "2025-02-11",
+  "last_updated": "2025-02-11T10:00:00Z",
+  "min_app_version": "1.5.0",
+  
   "tiers": {
-    "TIER_1": {
+    "PRICE_TIER_1": {
       "id": "PRICE_TIER_1",
       "order": 1,
+      "min": 0,
+      "max": 80,
       "filter_label": {
         "pt-BR": "🏷️ Acessíveis",
         "en": "🏷️ Affordable",
@@ -12,20 +17,21 @@
       },
       "display_value": {
         "pt-BR": "🏷️ Até R$ 80",
-        "en": "🏷️ Under $12",
-        "es": "🏷️ Hasta $12"
+        "en": "🏷️ Up to $16",
+        "es": "🏷️ Hasta 14€"
       },
       "select_value": {
         "pt-BR": "até R$ 80",
-        "en": "Up to $12",
-        "es": "Hasta $12"
-      },
-      "min": 0,
-      "max": 80
+        "en": "up to $16",
+        "es": "hasta 14€"
+      }
     },
-    "TIER_2": {
+    
+    "PRICE_TIER_2": {
       "id": "PRICE_TIER_2",
       "order": 2,
+      "min": 80,
+      "max": 350,
       "filter_label": {
         "pt-BR": "🍂 Clássicos",
         "en": "🍂 Classic",
@@ -33,20 +39,21 @@
       },
       "display_value": {
         "pt-BR": "🍂 R$ 80 - 350",
-        "en": "🍂 $12 - $50",
-        "es": "🍂 $12 - $55"
+        "en": "🍂 $16 - $70",
+        "es": "🍂 14€ - 62€"
       },
       "select_value": {
         "pt-BR": "de R$ 80 a R$ 350",
-        "en": "$12 - $50",
-        "es": "$12 - $55"
-      },
-      "min": 80,
-      "max": 350
+        "en": "from $16 to $70",
+        "es": "de 14€ a 62€"
+      }
     },
-    "TIER_3": {
+    
+    "PRICE_TIER_3": {
       "id": "PRICE_TIER_3",
       "order": 3,
+      "min": 350,
+      "max": 1200,
       "filter_label": {
         "pt-BR": "✨ Premium",
         "en": "✨ Premium",
@@ -54,20 +61,21 @@
       },
       "display_value": {
         "pt-BR": "✨ R$ 350 - 1.200",
-        "en": "✨ $50 - $170",
-        "es": "✨ $55 - $180"
+        "en": "✨ $70 - $240",
+        "es": "✨ 62€ - 214€"
       },
       "select_value": {
         "pt-BR": "de R$ 350 a R$ 1.200",
-        "en": "$50 - $170",
-        "es": "$55 - $180"
-      },
-      "min": 350,
-      "max": 1200
+        "en": "from $70 to $240",
+        "es": "de 62€ a 214€"
+      }
     },
-    "TIER_4": {
+    
+    "PRICE_TIER_4": {
       "id": "PRICE_TIER_4",
       "order": 4,
+      "min": 1200,
+      "max": 999999,
       "filter_label": {
         "pt-BR": "💎 Luxo",
         "en": "💎 Luxury",
@@ -75,16 +83,14 @@
       },
       "display_value": {
         "pt-BR": "💎 Acima de R$ 1.200",
-        "en": "💎 $170+",
-        "es": "💎 Más de $180"
+        "en": "💎 Above $240",
+        "es": "💎 Más de 214€"
       },
       "select_value": {
         "pt-BR": "acima de R$ 1.200",
-        "en": "$170 - up",
-        "es": "Más de $180"
-      },
-      "min": 1200,
-      "max": null
+        "en": "above $240",
+        "es": "más de 214€"
+      }
     }
   }
 }
