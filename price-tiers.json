@@ -1,0 +1,90 @@
+{
+  "version": "2.0",
+  "effective_date": "2027-01-01",
+  "tiers": {
+    "TIER_1": {
+      "id": "PRICE_TIER_1",
+      "order": 1,
+      "filter_label": {
+        "pt-BR": "🏷️ Acessíveis",
+        "en": "🏷️ Affordable",
+        "es": "🏷️ Asequibles"
+      },
+      "display_value": {
+        "pt-BR": "🏷️ Até R$ 80",
+        "en": "🏷️ Under $12",
+        "es": "🏷️ Hasta $12"
+      },
+      "select_value": {
+        "pt-BR": "até R$ 80",
+        "en": "Up to $12",
+        "es": "Hasta $12"
+      },
+      "min": 0,
+      "max": 80
+    },
+    "TIER_2": {
+      "id": "PRICE_TIER_2",
+      "order": 2,
+      "filter_label": {
+        "pt-BR": "🍂 Clássicos",
+        "en": "🍂 Classic",
+        "es": "🍂 Clásicos"
+      },
+      "display_value": {
+        "pt-BR": "🍂 R$ 80 - 350",
+        "en": "🍂 $12 - $50",
+        "es": "🍂 $12 - $55"
+      },
+      "select_value": {
+        "pt-BR": "de R$ 80 a R$ 350",
+        "en": "$12 - $50",
+        "es": "$12 - $55"
+      },
+      "min": 80,
+      "max": 350
+    },
+    "TIER_3": {
+      "id": "PRICE_TIER_3",
+      "order": 3,
+      "filter_label": {
+        "pt-BR": "✨ Premium",
+        "en": "✨ Premium",
+        "es": "✨ Premium"
+      },
+      "display_value": {
+        "pt-BR": "✨ R$ 350 - 1.200",
+        "en": "✨ $50 - $170",
+        "es": "✨ $55 - $180"
+      },
+      "select_value": {
+        "pt-BR": "de R$ 350 a R$ 1.200",
+        "en": "$50 - $170",
+        "es": "$55 - $180"
+      },
+      "min": 350,
+      "max": 1200
+    },
+    "TIER_4": {
+      "id": "PRICE_TIER_4",
+      "order": 4,
+      "filter_label": {
+        "pt-BR": "💎 Luxo",
+        "en": "💎 Luxury",
+        "es": "💎 Lujo"
+      },
+      "display_value": {
+        "pt-BR": "💎 Acima de R$ 1.200",
+        "en": "💎 $170+",
+        "es": "💎 Más de $180"
+      },
+      "select_value": {
+        "pt-BR": "acima de R$ 1.200",
+        "en": "$170 - up",
+        "es": "Más de $180"
+      },
+      "min": 1200,
+      "max": null
+    }
+  }
+}
