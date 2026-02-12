@@ -1,7 +1,7 @@
 {
-  "version": "2.0",
-  "effective_date": "2025-02-11",
-  "last_updated": "2025-02-11T10:00:00Z",
+  "version": "2.1",
+  "effective_date": "2025-02-12",
+  "last_updated": "2025-02-12T10:00:00Z",
   "min_app_version": "1.5.0",
   
   "tiers": {
@@ -18,12 +18,12 @@
       "display_value": {
         "pt-BR": "🏷️ Até R$ 80",
         "en": "🏷️ Up to $16",
-        "es": "🏷️ Hasta 14€"
+        "es": "🏷️ Hasta $16"
       },
       "select_value": {
         "pt-BR": "até R$ 80",
         "en": "up to $16",
-        "es": "hasta 14€"
+        "es": "hasta $16"
       }
     },
     
@@ -40,12 +40,12 @@
       "display_value": {
         "pt-BR": "🍂 R$ 80 - 350",
         "en": "🍂 $16 - $70",
-        "es": "🍂 14€ - 62€"
+        "es": "🍂 $16 - $70"
       },
       "select_value": {
         "pt-BR": "de R$ 80 a R$ 350",
         "en": "from $16 to $70",
-        "es": "de 14€ a 62€"
+        "es": "de $16 a $70"
       }
     },
     
@@ -62,12 +62,12 @@
       "display_value": {
         "pt-BR": "✨ R$ 350 - 1.200",
         "en": "✨ $70 - $240",
-        "es": "✨ 62€ - 214€"
+        "es": "✨ $70 - $240"
       },
       "select_value": {
         "pt-BR": "de R$ 350 a R$ 1.200",
         "en": "from $70 to $240",
-        "es": "de 62€ a 214€"
+        "es": "de $70 a $240"
       }
     },
     
@@ -84,12 +84,12 @@
       "display_value": {
         "pt-BR": "💎 Acima de R$ 1.200",
         "en": "💎 Above $240",
-        "es": "💎 Más de 214€"
+        "es": "💎 Más de $240"
       },
       "select_value": {
         "pt-BR": "acima de R$ 1.200",
         "en": "above $240",
-        "es": "más de 214€"
+        "es": "más de $240"
       }
     }
   }
