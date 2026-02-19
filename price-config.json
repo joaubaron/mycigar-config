@@ -1,0 +1,25 @@
+{
+  "_comment": "Arquivo de configuração de faixas de preço - Mycigar App",
+  "_instrucoes": "Edite os valores abaixo e salve. O app se atualiza automaticamente na próxima abertura.",
+  "_ultima_atualizacao": "2026-02-18",
+
+  "BRL": {
+    "_moeda": "Real Brasileiro (PT)",
+    "tier1_max": 50,
+    "tier2_min": 50,
+    "tier2_max": 150,
+    "tier3_min": 150,
+    "tier3_max": 500,
+    "tier4_min": 500
+  },
+
+  "USD": {
+    "_moeda": "Dólar (EN, ES, FR, IT)",
+    "tier1_max": 15,
+    "tier2_min": 15,
+    "tier2_max": 40,
+    "tier3_min": 40,
+    "tier3_max": 100,
+    "tier4_min": 100
+  }
+}
