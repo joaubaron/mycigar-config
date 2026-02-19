@@ -15,8 +15,8 @@
 
   "USD": {
     "_moeda": "Dólar (EN, ES, FR, IT)",
-    "tier1_max": 15,
-    "tier2_min": 15,
+    "tier1_max": 20,
+    "tier2_min": 20,
     "tier2_max": 40,
     "tier3_min": 40,
     "tier3_max": 100,
